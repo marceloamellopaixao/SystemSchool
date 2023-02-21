@@ -14,9 +14,9 @@ caso não houver, o sistema informará que não há nenhum dado e pede para cada
 Este sistema foi criado por este grupo do 2º Semestre na Faculdade Estácio em 2022,
 Integrantes do Grupo:
 
-Guilherme Gomes
-Marcelo Augusto
-Paulo Henrique
-Victor Santos
-Vitor Oliveira
+Guilherme Gomes,
+Marcelo Augusto,
+Paulo Henrique,
+Victor Santos,
+Vitor Oliveira.
 
