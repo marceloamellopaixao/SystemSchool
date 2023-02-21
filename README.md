@@ -1,7 +1,5 @@
 # System School with Python
 
-##
-
 Este sistema está sem o banco de dados por um motivo especifico,
 para que você consiga ver que o sistema em si, cria o arquivo bdschool.txt automaticamente (Banco de Dados via TXT).
 
