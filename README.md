@@ -17,8 +17,4 @@ Este sistema foi criado por este grupo,
 
 ### Integrantes do Grupo:
 
-<p>Guilherme Gomes,</p>
-<p>Marcelo Augusto,</p>
-<p>Paulo Henrique,</p>
-<p>Victor Santos,</p>
-<p>Vitor Oliveira.</p>
+<p>Guilherme Gomes,<br>Marcelo Augusto,<br>Paulo Henrique,<br>Victor Santos,<br>Vitor Oliveira.</p>
