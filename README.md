@@ -1,24 +1,20 @@
-#System School with Python
+# System School with Python
 
-##
+Este sistema tem o próposito de ajudar a uma escola com os dados dos alunos ou até mesmo professores e entre outros.
 
-Este sistema está sem o banco de dados por um motivo especifico,
-para que você consiga ver que o sistema em si, cria o arquivo bdschool.txt automaticamente (Banco de Dados via TXT).
+Até o momento está sem o banco de dados por um motivo especifico, 
+o sistema por si próprio após a execução, ele cria o arquivo bdschool.txt/BDT (Banco de Dados via TXT).
 
-Caso já tenha o arquivo ele só estará fazendo a leitura em segundo plano com o sistema na mesma pasta, 
-caso não estiver ele não fará a leitura e criará outro BDT,
-e assim que executar o aplicativo ele irá lhe mostrar as funções e algumas delas chamam o arquivo ou criam ele para verificar os dados, incluir e entre outros. 
+Caso já tenha o arquivo, ele estará fazendo a leitura dele em segundo plano na pasta que estará integrada ao sistema, 
+caso não reconhecer o arquivo ele não fará a leitura e criará outro BDT,
+Ao executar o aplicativo irá lhe mostrar as opções e algumas delas chamam o arquivo BDT para verificar os dados, incluir e entre outros. 
 será mostrado todos os dados que há dentro do arquivo mas somente se já estiver cadastrado,
 caso não houver, o sistema informará que não há nenhum dado e pede para cadastrar.
 
 ##
 
-Este sistema foi criado por este grupo do 2º Semestre na Faculdade Estácio em 2022,
-Integrantes do Grupo:
+Este sistema foi criado por este grupo,
 
-Guilherme Gomes
-Marcelo Augusto
-Paulo Henrique
-Victor Santos
-Vitor Oliveira
+### Integrantes do Grupo:
 
+<p>Guilherme Gomes,<br>Marcelo Augusto,<br>Paulo Henrique,<br>Victor Santos,<br>Vitor Oliveira.</p>
