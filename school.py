@@ -120,10 +120,13 @@ def new_student():
 
         opcao = input('Deseja fazer um novo cadastro? (S/N): ').strip().lower()
         if opcao == 's':
+            with open('bdschool.txt', 'a+') as file:
+                for studentInsert in newStudents:
+                    file.write(str(studentInsert) + '\n')
             continue
         else:
             # Estes comandos salvam todos os dados no arquivo bdschool.txt
-            with open('bdschool.txt', 'a') as file:
+            with open('bdschool.txt', 'a+') as file:
                 for studentInsert in newStudents:
                     file.write(str(studentInsert) + '\n')
             # Retorna ao menu inicial e trava a repetição deste atual
