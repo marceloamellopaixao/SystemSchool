@@ -192,11 +192,17 @@ def delete_student():
                 continue
         else:
             numero = int(input("Escolha o Aluno a ser excluido pelo seu número: "))
-            if (numero > numero_de_alunos) or (numero < 1):
+            if (numero > numero_de_alunos) or (numero < 1) and (numero != numero_de_alunos):
                 print('')
                 print("Número inválido, tente novamente")
                 print('')
-                delete_student()
+
+                opcao = input('Deseja retornar ao Menu Inicial? (S/N): ').strip().lower()
+                if (opcao == 's'):
+                    main_menu()
+                    break
+                else:
+                    delete_student()
             else:
                 index = numero - 1
                 bdDados.pop(index)
